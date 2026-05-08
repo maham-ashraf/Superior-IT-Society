@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Superior IT Society</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/superior_it_society_logo.png" alt="Superior IT Society">
+                <span class="logo-text">Superior IT Society</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="events.html" class="nav-link">Events</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+               
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Projects Showcase</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Explore innovative projects by our talented members</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="project-filters">
+        <div class="container">
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ai">AI / ML</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="iot">IoT</button>
+            </div>
+            <div class="search-bar" data-aos="fade-up" data-aos-delay="100">
+                <input type="text" id="projectSearch" placeholder="Search projects...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Web Development Project -->
+                <div class="project-card" data-category="web" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-type-badge web">Web Development</div>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Learning Platform</h3>
+                        <p class="project-description">A comprehensive online learning platform with video streaming, quizzes, and progress tracking.</p>
+                        <div class="project-team">
+                            <div class="team-members">
+                                <img src="https://picsum.photos/seed/user1/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user2/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user3/40/40.jpg" alt="Team member">
+                                <span>+2</span>
+                            </div>
+                            <div class="project-stats">
+                                <span><i class="fas fa-star"></i> 4.8</span>
+                                <span><i class="fas fa-code-branch"></i> 45</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI/ML Project -->
+                <div class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-type-badge ai">AI / ML</div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Campus Assistant</h3>
+                        <p class="project-description">AI-powered chatbot for campus navigation, schedules, and student support services.</p>
+                        <div class="project-team">
+                            <div class="team-members">
+                                <img src="https://picsum.photos/seed/user4/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user5/40/40.jpg" alt="Team member">
+                            </div>
+                            <div class="project-stats">
+                                <span><i class="fas fa-star"></i> 4.9</span>
+                                <span><i class="fas fa-code-branch"></i> 32</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile App Project -->
+                <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-type-badge mobile">Mobile Apps</div>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Dart</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Event Manager App</h3>
+                        <p class="project-description">Mobile application for managing university events with RSVP and notifications.</p>
+                        <div class="project-team">
+                            <div class="team-members">
+                                <img src="https://picsum.photos/seed/user6/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user7/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user8/40/40.jpg" alt="Team member">
+                            </div>
+                            <div class="project-stats">
+                                <span><i class="fas fa-star"></i> 4.7</span>
+                                <span><i class="fas fa-code-branch"></i> 28</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline"><i class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IoT Project -->
+                <div class="project-card" data-category="iot" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-type-badge iot">IoT</div>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>Raspberry Pi</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Classroom System</h3>
+                        <p class="project-description">IoT-based classroom automation with attendance tracking and environment monitoring.</p>
+                        <div class="project-team">
+                            <div class="team-members">
+                                <img src="https://picsum.photos/seed/user9/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user10/40/40.jpg" alt="Team member">
+                            </div>
+                            <div class="project-stats">
+                                <span><i class="fas fa-star"></i> 4.6</span>
+                                <span><i class="fas fa-code-branch"></i> 21</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline"><i class="fas fa-play"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development Project 2 -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-type-badge web">Web Development</div>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management System</h3>
+                        <p class="project-description">Collaborative task management tool with real-time updates and team collaboration features.</p>
+                        <div class="project-team">
+                            <div class="team-members">
+                                <img src="https://picsum.photos/seed/user11/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user12/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user13/40/40.jpg" alt="Team member">
+                                <span>+1</span>
+                            </div>
+                            <div class="project-stats">
+                                <span><i class="fas fa-star"></i> 4.8</span>
+                                <span><i class="fas fa-code-branch"></i> 38</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI/ML Project 2 -->
+                <div class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-type-badge ai">AI / ML</div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Face Recognition System</h3>
+                        <p class="project-description">Advanced face recognition system for campus security and attendance management.</p>
+                        <div class="project-team">
+                            <div class="team-members">
+                                <img src="https://picsum.photos/seed/user14/40/40.jpg" alt="Team member">
+                                <img src="https://picsum.photos/seed/user15/40/40.jpg" alt="Team member">
+                            </div>
+                            <div class="project-stats">
+                                <span><i class="fas fa-star"></i> 4.9</span>
+                                <span><i class="fas fa-code-branch"></i> 52</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline"><i class="fas fa-play"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submit Project Section -->
+    <section class="submit-project">
+        <div class="container">
+            <div class="submit-content" data-aos="fade-up">
+                <h2>Have a Project to Showcase?</h2>
+                <p>Share your innovative work with the community and get recognition for your achievements.</p>
+                <button class="btn btn-primary" id="submitProjectBtn">Submit Your Project</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Submission Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Submit Your Project</h2>
+            <form id="projectSubmissionForm">
+                <div class="form-group">
+                    <label for="projectName">Project Name</label>
+                    <input type="text" id="projectName" required>
+                </div>
+                <div class="form-group">
+                    <label for="projectCategory">Category</label>
+                    <select id="projectCategory" required>
+                        <option value="">Select Category</option>
+                        <option value="web">Web Development</option>
+                        <option value="ai">AI / ML</option>
+                        <option value="mobile">Mobile Apps</option>
+                        <option value="iot">IoT</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="projectDescription">Description</label>
+                    <textarea id="projectDescription" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="projectTech">Technologies Used</label>
+                    <input type="text" id="projectTech" placeholder="e.g., React, Node.js, MongoDB" required>
+                </div>
+                <div class="form-group">
+                    <label for="githubLink">GitHub Link</label>
+                    <input type="url" id="githubLink" placeholder="https://github.com/username/repo">
+                </div>
+                <div class="form-group">
+                    <label for="demoLink">Live Demo Link</label>
+                    <input type="url" id="demoLink" placeholder="https://example.com">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Project</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="assets/images/superior_it_society_logo.png" alt="Superior IT Society" class="footer-logo">
+                    <p>Connecting Innovation & Technology</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> info@superioritsociety.com</p>
+                    <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Superior University</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Superior IT Society. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span id="toastMessage">Success!</span>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

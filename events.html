@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Superior IT Society</title>
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/superior_it_society_logo.png" alt="Superior IT Society">
+                <span class="logo-text">Superior IT Society</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="events.html" class="nav-link active">Events</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+               
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Upcoming Events</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Join us for exciting tech events and workshops</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="event-filters">
+        <div class="container">
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="hackathon">Hackathons</button>
+                <button class="filter-btn" data-filter="workshop">Workshops</button>
+                <button class="filter-btn" data-filter="seminar">Seminars</button>
+                <button class="filter-btn" data-filter="competition">Competitions</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Grid -->
+    <section class="events-section">
+        <div class="container">
+            <div class="events-grid">
+                <!-- Hackathon Event -->
+                <div class="event-card" data-category="hackathon" data-aos="fade-up">
+                    <div class="event-image">
+                        <div class="event-type-badge hackathon">Hackathon</div>
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">DEC</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>CodeFest 2024</h3>
+                        <p class="event-description">24-hour coding marathon where teams compete to build innovative tech solutions.</p>
+                        <div class="event-details">
+                            <span><i class="fas fa-clock"></i> 24 Hours</span>
+                            <span><i class="fas fa-users"></i> 100+ Participants</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="fas fa-map-marker-alt"></i> Main Campus, Lab Building
+                        </div>
+                        <button class="btn btn-primary register-btn" data-event="CodeFest 2024">Register Now</button>
+                    </div>
+                </div>
+
+                <!-- Workshop Event -->
+                <div class="event-card" data-category="workshop" data-aos="fade-up" data-aos-delay="100">
+                    <div class="event-image">
+                        <div class="event-type-badge workshop">Workshop</div>
+                        <div class="event-date">
+                            <span class="day">20</span>
+                            <span class="month">DEC</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Web Development Masterclass</h3>
+                        <p class="event-description">Learn modern web development with React, Node.js, and MongoDB from industry experts.</p>
+                        <div class="event-details">
+                            <span><i class="fas fa-clock"></i> 3 Hours</span>
+                            <span><i class="fas fa-users"></i> 50 Participants</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="fas fa-map-marker-alt"></i> Computer Lab 301
+                        </div>
+                        <button class="btn btn-primary register-btn" data-event="Web Development Masterclass">Register Now</button>
+                    </div>
+                </div>
+
+                <!-- Seminar Event -->
+                <div class="event-card" data-category="seminar" data-aos="fade-up" data-aos-delay="200">
+                    <div class="event-image">
+                        <div class="event-type-badge seminar">Seminar</div>
+                        <div class="event-date">
+                            <span class="day">25</span>
+                            <span class="month">DEC</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>AI & Machine Learning Trends</h3>
+                        <p class="event-description">Expert talk on the latest trends in artificial intelligence and machine learning.</p>
+                        <div class="event-details">
+                            <span><i class="fas fa-clock"></i> 2 Hours</span>
+                            <span><i class="fas fa-users"></i> 200 Participants</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="fas fa-map-marker-alt"></i> Main Auditorium
+                        </div>
+                        <button class="btn btn-primary register-btn" data-event="AI & Machine Learning Trends">Register Now</button>
+                    </div>
+                </div>
+
+                <!-- Competition Event -->
+                <div class="event-card" data-category="competition" data-aos="fade-up" data-aos-delay="300">
+                    <div class="event-image">
+                        <div class="event-type-badge competition">Competition</div>
+                        <div class="event-date">
+                            <span class="day">28</span>
+                            <span class="month">DEC</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Mobile App Challenge</h3>
+                        <p class="event-description">Design and develop innovative mobile applications for real-world problems.</p>
+                        <div class="event-details">
+                            <span><i class="fas fa-clock"></i> 1 Week</span>
+                            <span><i class="fas fa-users"></i> 30 Teams</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="fas fa-map-marker-alt"></i> Online + Campus
+                        </div>
+                        <button class="btn btn-primary register-btn" data-event="Mobile App Challenge">Register Now</button>
+                    </div>
+                </div>
+
+                <!-- Workshop Event 2 -->
+                <div class="event-card" data-category="workshop" data-aos="fade-up" data-aos-delay="400">
+                    <div class="event-image">
+                        <div class="event-type-badge workshop">Workshop</div>
+                        <div class="event-date">
+                            <span class="day">05</span>
+                            <span class="month">JAN</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Cybersecurity Essentials</h3>
+                        <p class="event-description">Hands-on workshop on ethical hacking, network security, and data protection.</p>
+                        <div class="event-details">
+                            <span><i class="fas fa-clock"></i> 4 Hours</span>
+                            <span><i class="fas fa-users"></i> 40 Participants</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="fas fa-map-marker-alt"></i> Security Lab
+                        </div>
+                        <button class="btn btn-primary register-btn" data-event="Cybersecurity Essentials">Register Now</button>
+                    </div>
+                </div>
+
+                <!-- Hackathon Event 2 -->
+                <div class="event-card" data-category="hackathon" data-aos="fade-up" data-aos-delay="500">
+                    <div class="event-image">
+                        <div class="event-type-badge hackathon">Hackathon</div>
+                        <div class="event-date">
+                            <span class="day">12</span>
+                            <span class="month">JAN</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Data Science Sprint</h3>
+                        <p class="event-description">Intensive data science competition focusing on real-world data analysis challenges.</p>
+                        <div class="event-details">
+                            <span><i class="fas fa-clock"></i> 48 Hours</span>
+                            <span><i class="fas fa-users"></i> 60 Participants</span>
+                        </div>
+                        <div class="event-location">
+                            <i class="fas fa-map-marker-alt"></i> Data Science Lab
+                        </div>
+                        <button class="btn btn-primary register-btn" data-event="Data Science Sprint">Register Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Modal -->
+    <div class="modal" id="registrationModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Event Registration</h2>
+            <form id="eventRegistrationForm">
+                <input type="hidden" id="eventName">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="department">Department</label>
+                    <input type="text" id="department" required>
+                </div>
+                <div class="form-group">
+                    <label for="experience">Experience Level</label>
+                    <select id="experience" required>
+                        <option value="">Select Level</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Complete Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="assets/images/superior_it_society_logo.png" alt="Superior IT Society" class="footer-logo">
+                    <p>Connecting Innovation & Technology</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> info@superioritsociety.com</p>
+                    <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Superior University</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Superior IT Society. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span id="toastMessage">Success!</span>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
